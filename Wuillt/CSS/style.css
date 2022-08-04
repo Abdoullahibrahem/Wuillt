@@ -1,0 +1,431 @@
+
+body{
+    background-color: rgb(246,254,252);
+    margin: 0%; /*for fixing the white space in the footer */
+    padding: 0%; /*for fixing the white space in the footer */
+
+}
+nav ul li a{ /*start the styling of the nav bar*/
+    text-decoration: none;
+    padding-left: 30px;
+    font-weight: bold;    
+    color:rgb(56,67,83);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+nav ul{
+    list-style: none;
+    display: inline;
+    position: relative;
+    top: 30px;
+    left: 27%;
+}
+nav li{
+    display: inline; /*to make links in a row*/
+}
+nav{
+    position:relative;
+}
+nav .logo{
+    height: 42px;
+    position: absolute;
+    top: 22px;
+    right: 160px;
+}
+nav .nav2{ /*this is for buttons in navbar*/
+    position: relative;
+    top: 30px;
+    left: 15%;
+}
+nav .nav2 li a{
+    border: 1px solid rgb(11, 125, 116) ;
+    padding: 10px 19px 14px;
+    border-radius: 30px;
+    position: relative;
+    right: 20px;
+}
+nav .nav2 li .a1{ /*styling for the first button in navbar*/
+    background-color:rgb(13,148,136) ;
+    color: aliceblue;
+    margin-left: 15px;
+}
+nav .nav2 li .a2{   /*styling for the second button in navbar*/
+    color: rgb(13,148,136) ;
+
+}
+select{     /*this is for the language selection section in navbar*/
+    text-decoration:none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    font-weight: bold;
+    color:rgb(56,67,83);
+    background-color: rgb(246,254,252);
+    -webkit-appearance: none;
+    font-size: 18px;
+    position: relative;
+    right:47%;
+    top: 28px;
+}
+nav .logolang{  /*this is the image logo for language selection */
+    position: relative;
+    right:42%;
+    top: 31px;
+    z-index: 1;
+    height: 15px;
+}                               /*end of the navbar*/
+header{/*start of the header*/
+    height: 560px;    
+}
+header h1{
+    position: relative;
+    top: 18%;
+    display: flex;            /*to center the head*/
+    justify-content: center;  /*to center the head*/
+    line-height: 100px;       /*to move it vertically*/
+    word-spacing: -15px;      /*to minimize the space between words*/
+    text-align: center;
+    font-size: 64px;
+    background-image: linear-gradient(100deg,#000000,#51d2c5);/*for text-gradient*/
+    -webkit-background-clip: text; 
+    background-clip: text;                                /*for text-gradient*/
+    -webkit-text-fill-color: transparent;                 /*for text-gradient*/
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+
+}
+header .header-p{           /*this is the div of paragraph under the h1*/
+    display: flex;
+    justify-content: center;
+    direction: rtl;         /*makes it in arabic*/
+    position: relative;
+    top: 12%;
+    font-size: 19px;
+    color: #69717d;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+header .header-p p{
+    margin-left: 10px;
+}
+header .header-p i{
+    color: green;
+    font-size: 22px;
+    margin-left: 2px;
+}
+header .header-btn{        /*for the button in the header*/
+    border: 1px solid rgb(11, 125, 116) ;
+    padding: 16px 20px 18px;
+    border-radius: 30px;
+    background-color:rgb(13,148,136) ;
+    color: aliceblue;
+    text-decoration: none;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+
+    display: block;        /*another way to center an element*/
+    margin-left: auto;     /*another way to center an element*/
+    margin-right: auto;    /*another way to center an element*/
+    width: 230px;
+    text-align: center;
+
+    position: relative;
+    top: 15%;
+
+}
+header #offer-p{           /*this is for the offer paragraph in the header*/
+    display: flex;
+    justify-content: center;
+    direction: rtl;
+    position: relative;
+    top: 16%;
+    font-size: 14px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    word-spacing: -2px;
+    font-weight: bold;
+    color: #506a8c;
+}
+.bg-img{
+    overflow: hidden;
+    position: relative;
+}
+.bg-img .img-mid{       /*centering the middle img */
+    height: 720px;
+    display: flex;
+    justify-content: center;
+}
+.bg-img .img-left{      /*for the left one*/
+    position: absolute;
+    top: 125px;
+    left: 108px;
+    display: flex;
+    height: 480px;
+}
+.bg-img .img-right{      /*for the right one*/
+    position: absolute;
+    top: 255px;
+    right: 90px;
+    display: flex;
+    height: 440px;
+}
+.bg-logos .bg-logo1{    /*this is for the left logo behind the images*/
+    position: absolute;
+    top: 500px;
+    left: 100px;
+    display: flex;
+}
+.bg-logos .bg-logo2{     /*this is for the right logo behind the images*/
+    position: absolute;
+    top: 520px;
+    right: 150px;
+    display: flex;
+}
+.rates{                 /*this the section that has ratings */
+    display: flex;
+    direction: rtl;
+    justify-content: center;
+    height: 400px;
+}
+.rates .rates1{         /*first div in rating section*/
+    padding-left: 120px;
+    position: relative;
+    right:-20px;
+    top: -20px;
+}
+
+.rates .rates1 h2{      /*styling the heading in the first div*/
+    direction: rtl;
+    position: relative;
+    top: 15%;
+    display: flex;
+    word-spacing: -10px;
+    font-size: 46px;
+    background-image: linear-gradient(110deg,#000000,#2c988d);/*for text-gradient*/
+    -webkit-background-clip: text; 
+    background-clip: text;                                /*for text-gradient*/
+    -webkit-text-fill-color: transparent;   
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;   
+}
+.rates .rates1 .rates1-p{    /*for the paragraph in the first div*/
+    direction: rtl;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    color:#50565ecd;
+    font-weight: 500;
+    position: absolute;
+    top: 230px;
+}
+.rates .rates2{             /*second div in rating section*/
+    direction: rtl;
+    position: relative;
+}
+.rates .rates2 h3{          /*this is the numerical rating*/
+    color: black;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    direction: rtl;
+}
+.rates .rates2 h3 .span-rate-num{  /*styling the huge num 4.9*/
+    font-size: 78px;
+}
+.rates .rates2 .rates2-img1{       /*the rating stars image*/
+    height: 38px;
+    position: relative;
+    top: -43px;
+}
+.rates .rates2 .rates2-p{          /*rating div paragraph*/
+    direction: rtl;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color:#50565ecd;
+    font-weight: 500;
+    position: relative;
+    top: -45px;
+}
+
+.rates .rates2 .rates2-p .span-rate-text{   /*the bolder text at the beginning of the paragraph*/
+    color: #000000;
+    font-size: 17px;
+}
+.rates .rates2 .rates2-img2{        /*companies img*/
+    position: relative;
+    top: -45px;
+}                           /*end of the rating div*/
+/*start of the footer*/
+footer{
+    background-color: #10182c;
+    height: 500px;
+    display: flex;
+    direction: rtl;
+    justify-content: center;
+    overflow: hidden;                       /*this line solved the extra white space after the footer*/
+    position: relative;
+}
+footer .footer-div1{
+    direction: rtl;
+}
+footer .footer-div1 .footer-logo{           /*div1 logo*/
+    height: 50px;
+}
+footer .footer-div1 .footer-div1-p{         /*div1 paragraph in footer*/
+    color: rgba(245, 245, 245, 0.84);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+footer .footer-div1 .footer-icons .footer-iconstyle{ /*styling socialmedia icons*/
+    height: 28px;
+    width: 28px;
+    font-size: 13px;
+    background-color:#334d74;
+    color: white;
+    border-radius: 50%;                 /*to make circle*/
+    display: inline-block;
+    text-align: center;
+    line-height: 28px;                  /*to center the icon in the circle i made line-height= height=28px*/
+    margin-left: 10px;
+}
+footer .footer-div1 .footer-icons{      /*this is the div of icons*/
+    padding:15px 0px ;
+}
+footer .footer-div2 .footer-head1{      /*head of the list of the 2nd div on footer*/
+    font-weight: bolder;
+    direction: rtl;
+    font-size:20px;
+    color: rgb(245, 245, 245);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+footer .footer-div2 .footer-list1{      /*the 1st div2 of footer*/
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    top: -5px;
+}
+
+footer .footer-div2 .footer-list1 li{   
+    list-style: none;
+    padding-bottom: 15px;
+
+}
+footer .footer-div2 .footer-list1 li a{     /*styling the links*/
+    text-decoration: none;
+    color: rgba(245, 245, 245, 0.84);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+footer .footer-div2{    
+    display: flex;                       /*to make the 2 lists in the div behind each pther*/
+    direction: rtl;
+    
+}
+footer .footer-div2 .footer-list2{
+    position: relative;
+    top: 62px;
+}
+footer .footer-div2 .footer-list2 li{
+    list-style: none;
+    padding-bottom: 15px;
+
+}
+footer .footer-div2 .footer-list2 li a{     /*styling list2 in div2 links*/
+    text-decoration: none;
+    color: rgba(245, 245, 245, 0.84);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/*welcome to div3(another links div) in footer*/
+footer .footer-div3 .footer-head2{      /*head of the list*/
+    font-weight: bolder;
+    direction: rtl;
+    font-size:20px;
+    color: rgb(245, 245, 245);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+footer .footer-div3 .footer-list3{      
+    margin: 0px;
+    padding: 0px;
+}
+
+footer .footer-div3 .footer-list3 li{
+    list-style: none;
+    padding-bottom: 15px;
+
+}
+footer .footer-div3 .footer-list3 li a{     /*styling div3 links*/
+    text-decoration: none;
+    color: rgba(245, 245, 245, 0.84);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+footer .footer-div3{
+    direction: rtl;
+    position: relative;
+    top: 145px;
+}
+
+/*welcome to div4(the email button) of the footer*/
+footer .footer-div4{
+    direction: rtl;
+    position: relative;
+    right: 50px;
+}
+footer .footer-div4 .footer-head3{      /*head of the div*/
+    font-weight: bolder;
+    direction: rtl;
+    color: rgb(245, 245, 245);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+footer .footer-div4 .footer-mail-btn{   /*the button shape*/
+    display: flex;
+    text-decoration: none;
+    background-color: #334d74;
+    padding: 6px 18px;
+    border-radius: 10px;
+    
+}
+footer .footer-div4 .footer-mail-btn .footer-mail-p{ /*paragraph in the button*/
+    color: rgba(245, 245, 245, 0.84);
+    font-size:16px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+footer .footer-div4 .footer-mail-btn .footer-mail-icon{/*icon shape*/
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+footer .footer-div4 .footer-mail-btn .footer-mail-head{/*the bolder text in button*/
+    color: rgb(245, 245, 245);
+    font-weight: bolder;
+    font-size: 16px;
+}
+.footer-div1,.footer-div2,.footer-div3,.footer-div4{
+    position: relative;
+    top: 150px;
+    padding-left: 50px;
+}
+/*hovers section starts*/
+a:hover{
+    color: #2c988d;
+}
+.a1:hover{
+    position: relative;
+    top: 2px;
+}
+.a2:hover{
+    position: relative;
+    top: 2px;
+
+}
+.header-btn:hover{
+    color: white;
+    margin-top: 2px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
